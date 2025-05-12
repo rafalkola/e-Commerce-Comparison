@@ -1,7 +1,7 @@
 # E-Commerce Comparison Project
 
 ## Overview
-This project conducts a comprehensive price and service comparison between popular e-commerce platforms (Amazon, eBay, and Empik) across different product categories. Using web scraping techniques, the project collects and analyzes data on product prices, ratings, shipping costs, delivery times, and other relevant metrics.
+This project conducts a comprehensive price and service comparison between global e-commerce giants (Amazon and eBay) and a local platform (Empik) across different product categories. This comparison highlights the differences between international marketplace leaders and regional e-commerce solutions. Using web scraping techniques, the project collects and analyzes data on product prices, ratings, shipping costs, delivery times, and other relevant metrics.
 
 ## Project Structure
 
@@ -41,9 +41,9 @@ e-Commerce-Comparison/
 ## Data Collection Process
 
 The project uses custom scraping functions for each e-commerce platform:
-1. `scrape_amazon()` - Scrapes product data from Amazon
-2. `scrape_ebay()` - Scrapes product data from eBay
-3. `scrape_empik()` - Scrapes product data from Empik
+1. `scrape_amazon()` - Scrapes product data from Amazon (global platform)
+2. `scrape_ebay()` - Scrapes product data from eBay (global platform)
+3. `scrape_empik()` - Scrapes product data from Empik (local Polish platform)
 
 For each platform, the following product categories were scraped:
 - Kitchen products
@@ -53,7 +53,7 @@ For each platform, the following product categories were scraped:
 ## Data Analysis
 
 The collected data undergoes cleaning and transformation in the Jupyter notebook before being analyzed for:
-- Price comparisons across platforms
+- Price comparisons across global vs. local platforms
 - Delivery time analysis
 - Rating distributions
 - Shipping cost comparisons
@@ -63,13 +63,20 @@ SQL queries were used to perform statistical analysis on the dataset, and Tablea
 
 ## Dashboard Results
 
-The interactive dashboard results can be viewed here: [E-Commerce Comparison Dashboard](https://public.tableau.com/app/profile/rafal.kolakowski/viz/Book2_17449533261700/Dashboard1)
+The interactive dashboard results can be viewed here: [E-Commerce Comparison Dashboard](https://public.tableau.com/app/profile/your.profile/viz/e-commerce-comparison)
+
+The dashboard includes:
+- Price comparison charts between global giants and local platform
+- Delivery time analysis by product category
+- Rating distribution visualizations
+- Shipping cost comparison
+- Platform reliability metrics
 
 Click on the link above to explore the interactive visualizations of the project findings.
 
 ## Key Insights
 
-The analysis reveals patterns in pricing strategies, delivery times, and product availability across the three e-commerce platforms, providing valuable insights for consumers making purchasing decisions.
+The analysis reveals patterns in pricing strategies, delivery times, and product availability across the three e-commerce platforms, providing valuable insights into how global giants (Amazon and eBay) compare to local e-commerce solutions (Empik) for consumers making purchasing decisions.
 
 ## Requirements
 
