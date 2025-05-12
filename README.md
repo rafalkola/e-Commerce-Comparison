@@ -63,7 +63,7 @@ SQL queries were used to perform statistical analysis on the dataset, and Tablea
 
 ## Dashboard Results
 
-The interactive dashboard results can be viewed here: [[E-Commerce Comparison Dashboard](https://public.tableau.com/app/profile/rafal.kolakowski/viz/Book2_17449533261700/Dashboard1)
+The interactive dashboard results can be viewed here: [E-Commerce Comparison Dashboard](https://public.tableau.com/app/profile/rafal.kolakowski/viz/Book2_17449533261700/Dashboard1)
 
 The dashboard includes:
 - Price comparison charts between global giants and local platform
